@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        var valor = prompt("Digite o primeiro valor")
+        var valor2 = prompt("Digite o segundo valor")
+        var valor3 = prompt("Digite o terceiro valor")
+
+        valor = parseFloat(valor)
+        valor2 = parseFloat(valor2)
+        valor3 = parseFloat(valor3)
+
+        if (isNaN(valor || valor2 || valor3)) {
+            alert("Numero invalido")
+        }
+        else {
+            if (valor > valor2 && valor > valor3) {
+                alert("O maior valor é " + valor)
+            }
+            else if (valor2 > valor && valor2> valor3) {
+                alert("O maior valor é " + valor2)
+            }
+            else {
+                alert("O maior valor é " + valor3)
+            }
+            
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
