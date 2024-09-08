@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        var num1 = prompt("Insira um valor")
+        var num2 = prompt("Insira um valor")
+        var num3 = prompt("Insira um valor")
+        var num4 = prompt("Insira um valor")
+
+        num1 = parseFloat(num1);
+        num2 = parseFloat(num2);
+        num3 = parseFloat(num3);
+        num4 = parseFloat(num4);
+
+        if (isNaN(num1) || isNaN(num2)||isNaN(num3)||isNaN(num4)){
+            alert ("Insira numeros validos")
+        }
+        else{
+            var maiornum = Math.max( num1, num2, num3, num4)
+
+            alert("O Primeiro numero é " +num1)
+            alert("O Ultimo numero é " +num4)
+            alert("O Maior entre eles é " +maiornum)
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

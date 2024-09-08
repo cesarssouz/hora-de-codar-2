@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        var valor1 = prompt("Insira o primeiro valor ")
+        var valor2 = prompt("Insira o segundo valor")
+        var valor3 = prompt("Insira o terceiro valor")
+        var valor4 = prompt("Insira o quarto valor")
+        var valor5 = prompt("Insira o quinto valor")
+        var valor6 = prompt("Insira o sexto valor")
+
+        valor1 = parseFloat(valor1);
+        valor2 = parseFloat(valor2);
+        valor3 = parseFloat(valor3);
+        valor4 = parseFloat(valor4);
+        valor5 = parseFloat(valor5);
+        valor6 = parseFloat(valor6);
+
+
+        if (isNaN(valor1) || isNaN(valor2) || isNaN(valor3) || isNaN(valor4) || isNaN(valor5) || isNaN(valor6)) {
+            alert("Insira numeros validos")
+        }
+        else {
+            var soma = valor1 + valor2 + valor3 + valor4 + valor5 + valor6
+            var media = soma / 6;
+
+            alert("Os valores informados são: " + valor1 + ", " + valor2 + ", " + valor3 + ", " + valor4 + ", " + valor5 + ", " + valor6 + " e a media aritmetica deles é " + media)
+
+        }
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

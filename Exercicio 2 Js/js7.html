@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        var num1 = prompt("Insira o primeiro valor")
+        var num2 = prompt("Insira o segundo valor")
+        var num3 = prompt("Insira o terceiro valor")
+        var num4 = prompt("Insira o quarto valor")
+        var num5 = prompt("Insira o quinto valor")
+        var num6 = prompt("Insira o sexto valor")
+
+        num1 = parseFloat(num1)
+        num2 = parseFloat(num2)
+        num3 = parseFloat(num3)
+        num4 = parseFloat(num4)
+        num5 = parseFloat(num5)
+        num6 = parseFloat(num6)
+
+        if(isNaN(num1)||isNaN(num2)||isNaN(num3)||isNaN(num4)||isNaN(num5)||isNaN(num6)){
+            alert ("Insira numeros validos ")
+        }
+            var soma = 0
+        if ( num1 < 72) soma+= num1
+        if ( num2 < 72) soma+= num2
+        if ( num3 < 72) soma+= num3
+        if ( num4 < 72) soma+= num4
+        if ( num5 < 72) soma+= num5
+        if ( num6 < 72) soma+= num6
+
+        alert("Os valores informados são " + num1 +", " +num2 +", " + num3 + ", " + num4 + ", " +num5 + ", " + num6 )
+        alert("A soma dos numeros inferiores a 72 é " + soma)
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
